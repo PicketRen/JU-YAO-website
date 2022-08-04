@@ -1,0 +1,83 @@
+//customize css
+
+//width
+.w50{
+  width: 50%;
+}
+.w80{
+  width: 80%;
+}
+//FONT
+//google font-family
+//Noto Sans Traditional Chinese
+//thin 100, light 300, regular 400, medium 500
+.font-notoSansTc{
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.fs-large {
+  font-size: calc(2.5rem + 0.9vw);
+}
+
+//TEXT
+.text-heavy{
+  color: $heavy;
+}
+
+.text-indent{
+  text-indent: 2em;
+}
+
+.text-bright{
+  color: $gold;
+}
+
+//LETTER SPACING
+.letter-spacing-s{
+  letter-spacing: 1rem
+}
+.letter-spacing-lg{
+  letter-spacing: 3.75rem
+}
+
+// MARGIN
+.me-large{
+    margin-right: 4.5em;
+}
+.mx-large{
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.my-large{
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem;
+}
+.mt-large{
+  margin-top: 4.5rem;
+}
+.mb-large{
+  margin-bottom: 4.5rem;
+}
+
+//PADDING
+.ms-a{
+  margin-left: 20%;
+}
+.ms-b{
+  margin-left: 15%;
+}
+.ms-c{
+  margin-left: 10%;
+}
+
+//ANIMATION
+.animate__normal{
+  --animate-duration:1s;
+}
+// .animate__slow{
+//   --animate-duration: 2s;
+// }	
+// .animate__slower{
+//   --animate-duration: 3s;
+// }	
+

@@ -1,0 +1,55 @@
+//  全域css 
+// *,*::before,*::after{
+//     outline: 1px solid red
+// } 
+
+.container{
+    margin: 0 auto;
+}
+//img rwd css 
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: $secondary;
+    background-color: transparent;
+}
+
+.navbar-brand-logoImg{
+    width: 288px;
+    height: auto;
+    filter: drop-shadow(2px 1px 1px rgb(255,255,255,0.8))
+}
+
+
+    // navbar-link 動態下底線 
+.line-absolute a{
+    position:relative;
+  }
+.line-absolute a::after{
+    content:" ";
+    position: absolute;
+    right:50%;
+    left:50%;
+    bottom: 0;
+    border-bottom:4px solid $bright;
+    transition: .3s;
+  }
+.line-absolute a:hover::after{
+    right: 0%;
+    left: 0%;  
+  }
+.nav-link{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }    
+
+footer{
+    background-color: $primary;
+    color:$secondary
+}
+

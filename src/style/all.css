@@ -10934,6 +10934,7 @@ textarea.form-control-lg {
 
 :root {
   --bs-link-hover-color: #c3c4c4;
+  --bs-border-color-translucent: rgba(0, 0, 0, 0);
 }
 
 .card {
@@ -10951,6 +10952,10 @@ textarea.form-control-lg {
   border-color: black;
   outline: 0;
   box-shadow: 0 0 0 0rem rgba(13, 110, 253, 0.25);
+}
+
+.btn {
+  --bs-btn-focus-box-shadow: 0 0 0 0(var(--bs-btn-focus-shadow-rgb), .5);
 }
 
 .btn-primary {
@@ -10992,7 +10997,7 @@ textarea.form-control-lg {
 }
 
 .text-bright {
-  color: #c6a769;
+  color: #e4b24f;
 }
 
 .letter-spacing-s {
@@ -11035,6 +11040,10 @@ textarea.form-control-lg {
 
 .ms-c {
   margin-left: 10%;
+}
+
+.ms60 {
+  margin-left: 60%;
 }
 
 .animate__normal {
@@ -11096,8 +11105,11 @@ footer {
 .companyImg {
   width: 100%;
   height: 73vh;
-  background: linear-gradient(115deg, #f8f9fa 40%, transparent 60%) center center/100% 100%, url("https://images.unsplash.com/photo-1636747423727-2d39d0aa9796?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGZhY3RvcnklMjBidWlsZGluZ3xlbnwwfDB8MHx8&auto=format&fit=crop&w=600&q=60") right center/auto 100%;
-  background-size: fixed;
+  background: linear-gradient(115deg, #f8f9fa 45%, transparent 55%) center center/100% 100%, url("../img/company_building_1-1.jpg") right center/auto 100%;
+}
+
+.text-shadow {
+  text-shadow: -1px -1px white, 1px 1px #adb5bd;
 }
 
 .companyLogoImg {

@@ -1,10 +1,5 @@
 //customize css
 
-//rwd
-
-
-
-
 //width
 .width-large{
   @include media-breakpoint-up(lg){
@@ -35,6 +30,10 @@
 
 .fs-large {
   font-size: calc(2.5rem + 0.9vw);
+}
+
+.fs-mid{
+  font-size: calc(2rem + 0.9vw);
 }
 
 //TEXT
@@ -76,6 +75,9 @@
 .mb-large{
   margin-bottom: 4.5rem;
 }
+.ms-aa{
+  margin-left: 30%;
+}
 .ms-a{
   margin-left: 20%;
 }
@@ -85,6 +87,10 @@
 .ms-c{
   margin-left: 10%;
 }
+.ms-d{
+  margin-left: 5%;
+}
+
 .ms60{
   margin-left: 60%;
 }

@@ -11073,10 +11073,6 @@ textarea.form-control-lg {
   --animate-duration:1s;
 }
 
-*, *::before, *::after {
-  outline: 1px solid red;
-}
-
 .container {
   margin: 0 auto;
 }
@@ -11152,18 +11148,6 @@ footer {
 
 .text-shadow {
   text-shadow: -1px -1px white, 1px 1px #adb5bd;
-}
-
-@media (min-width: 576px) and (max-width: 991.98px) {
-  .sm-lg-display-none {
-    display: none;
-  }
-}
-
-@media (min-width: 992px) {
-  .lg-display-none {
-    display: none;
-  }
 }
 
 .companyLogoImg {

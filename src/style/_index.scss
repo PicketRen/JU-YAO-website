@@ -11,13 +11,3 @@
     text-shadow:-1px -1px white, 1px 1px $gray-500
 }
 
-.sm-lg-display-none{
-    @include media-breakpoint-between(sm, lg){
-        display: none;
-    }
-}
-.lg-display-none{
-    @include media-breakpoint-up(lg){
-        display: none;
-    }
-}

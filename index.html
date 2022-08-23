@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant-TW">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="./src/style/all.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg pt-3 pb-3 sm-lg-display-none">
+    <nav class="navbar navbar-expand-lg pt-3 pb-3 d-none d-lg-block">
       <div class="container container-fluid align-items-end">
         <h1>
           <a class="navbar-brand pt-0 pb-0" href="./index.html">
@@ -67,7 +67,7 @@
         </div>
       </div>
     </nav>
-    <nav class="navbar pt-3 pb-3 fixed-top lg-display-none">
+    <nav class="navbar pt-3 pb-3 fixed-top d-lg-none">
       <div class="container container-fluid">
         <h1>
           <a class="navbar-brand pt-0 pb-0" href="./index.html">
@@ -175,16 +175,30 @@
             電話：
             <a class="d-inline" href="tel:+886-4-24952066">+886-04-24952066</a>
           </p>
+          <div class="d-md-none">
+            <p class="mb-2">
+              信箱：
+              <a
+                class="d-inline"
+                href="mailto:info@juyao.com.tw?subject=聯絡鉅耀"
+                >info@juyao.com.tw</a
+              >
+            </p>
+            <p>© 2022 鉅耀精密工業股份有限公司著作權所有</p>
+          </div>
         </div>
-        <div class="d-flex justify-content-between">
-          <p>
-            信箱：
-            <a class="d-inline" href="mailto:info@juyao.com.tw?subject=聯絡鉅耀"
-              >info@juyao.com.tw</a
-            >
-          </p>
-
-          <p>Copyright© 2022 鉅耀精密工業股份有限公司著作權所有</p>
+        <div class="d-none d-md-block">
+          <div class="d-flex justify-content-between">
+            <p>
+              信箱：
+              <a
+                class="d-inline"
+                href="mailto:info@juyao.com.tw?subject=聯絡鉅耀"
+                >info@juyao.com.tw</a
+              >
+            </p>
+            <p>Copyright© 2022 鉅耀精密工業股份有限公司著作權所有</p>
+          </div>
         </div>
       </div>
     </footer>

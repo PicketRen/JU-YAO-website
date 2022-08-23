@@ -1,11 +1,11 @@
 //  全域css 
-// *,*::before,*::after{
-//     outline: 1px solid red
-// } 
+*,*::before,*::after{
+    outline: 1px solid red
+} 
 
 .container{
     margin: 0 auto;
-}
+    }
 //img rwd css 
 img{
     display: block;
@@ -18,12 +18,24 @@ a{
     color: $secondary;
     background-color: transparent;
 }
-
-.navbar-brand-logoImg{
-    width: 288px;
-    height: auto;
-    filter: drop-shadow(2px 1px 1px rgb(255,255,255,0.8))
+.material-symbols-outlined {
+    font-size: 30px;
 }
+
+.navbar-menu-logoImg{
+    width: 300px;
+    height: auto;
+    filter: drop-shadow(2px 1px 2px rgb(255,255,2550,1));
+
+}
+.navbar-brand-logoImg{
+    width: 110px;
+    height: auto;
+    filter: drop-shadow(2px 1px 2px rgb(255,255,2550,1));
+
+    @include media-breakpoint-up(lg){
+        width: 288px;
+}}
 
 
     // navbar-link 動態下底線 

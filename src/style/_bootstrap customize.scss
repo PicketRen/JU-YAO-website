@@ -6,6 +6,7 @@ $dark: black;
 $bright: #e4b24f;
 $heavy: #727171;
 $gold: #c6a769;
+$card: $gray-300;
 
 .navbar{
     --bs-navbar-color: #c3c4c4 ;//文字顏色
@@ -25,6 +26,11 @@ $gold: #c6a769;
     }
 }
 
+// menu background
+.text-bg-dark {
+    color: #fff !important;
+    background-color: RGBA(0, 33, 53, var(--bs-bg-opacity, 1)) !important;
+}
 
 :root{
     --bs-link-hover-color: #c3c4c4;// navbar-link

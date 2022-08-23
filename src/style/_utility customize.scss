@@ -1,8 +1,21 @@
 //customize css
 
 //width
-.w50{
-  width: 50%;
+.width-large{
+  @include media-breakpoint-up(lg){
+    width: 55%;
+  }
+  @include  media-breakpoint-up(xl){
+    width: 50%;
+  }
+}
+.width-small{
+  @include media-breakpoint-up(lg){
+    width: 45%;
+  }
+  @include  media-breakpoint-up(xl){
+    width: 50%;
+  }
 }
 .w80{
   width: 80%;

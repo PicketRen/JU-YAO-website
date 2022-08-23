@@ -10932,6 +10932,11 @@ textarea.form-control-lg {
   margin-left: 0;
 }
 
+.text-bg-dark {
+  color: #fff !important;
+  background-color: RGBA(0, 33, 53, var(--bs-bg-opacity, 1)) !important;
+}
+
 :root {
   --bs-link-hover-color: #c3c4c4;
   --bs-border-color-translucent: rgba(0, 0, 0, 0);
@@ -10972,8 +10977,26 @@ textarea.form-control-lg {
   --bs-btn-active-shadow: 0 0 0;
 }
 
-.w50 {
-  width: 50%;
+@media (min-width: 992px) {
+  .width-large {
+    width: 55%;
+  }
+}
+@media (min-width: 1200px) {
+  .width-large {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .width-small {
+    width: 45%;
+  }
+}
+@media (min-width: 1200px) {
+  .width-small {
+    width: 50%;
+  }
 }
 
 .w80 {
@@ -11050,6 +11073,10 @@ textarea.form-control-lg {
   --animate-duration:1s;
 }
 
+*, *::before, *::after {
+  outline: 1px solid red;
+}
+
 .container {
   margin: 0 auto;
 }
@@ -11067,10 +11094,25 @@ a {
   background-color: transparent;
 }
 
-.navbar-brand-logoImg {
-  width: 288px;
+.material-symbols-outlined {
+  font-size: 30px;
+}
+
+.navbar-menu-logoImg {
+  width: 300px;
   height: auto;
-  filter: drop-shadow(2px 1px 1px rgba(255, 255, 255, 0.8));
+  filter: drop-shadow(2px 1px 2px rgb(255, 255, 255));
+}
+
+.navbar-brand-logoImg {
+  width: 110px;
+  height: auto;
+  filter: drop-shadow(2px 1px 2px rgb(255, 255, 255));
+}
+@media (min-width: 992px) {
+  .navbar-brand-logoImg {
+    width: 288px;
+  }
 }
 
 .line-absolute a {
@@ -11104,7 +11146,7 @@ footer {
 
 .companyImg {
   width: 100%;
-  height: 73vh;
+  height: calc(100vh - 165px);
   background: linear-gradient(115deg, #f8f9fa 45%, transparent 55%) center center/100% 100%, url("../img/company_building_1-1.jpg") right center/auto 100%;
 }
 
@@ -11112,8 +11154,24 @@ footer {
   text-shadow: -1px -1px white, 1px 1px #adb5bd;
 }
 
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .sm-lg-display-none {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .lg-display-none {
+    display: none;
+  }
+}
+
 .companyLogoImg {
   width: 50%;
   height: auto;
   margin: 0 auto;
+}
+
+.bg-card {
+  background-color: #dee2e6;
 }/*# sourceMappingURL=all.css.map */

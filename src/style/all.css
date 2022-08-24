@@ -11015,6 +11015,10 @@ textarea.form-control-lg {
   font-size: calc(2rem + 0.9vw);
 }
 
+.fs-s {
+  font-size: 0.875rem;
+}
+
 .text-heavy {
   color: #727171;
 }
@@ -11031,6 +11035,10 @@ textarea.form-control-lg {
   letter-spacing: 1rem;
 }
 
+.letter-spacing-md {
+  letter-spacing: 2rem;
+}
+
 .letter-spacing-lg {
   letter-spacing: 3.75rem;
 }
@@ -11044,9 +11052,19 @@ textarea.form-control-lg {
   margin-right: 5rem;
 }
 
+.mx-mid {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .my-large {
   margin-top: 4.5rem;
   margin-bottom: 4.5rem;
+}
+
+.my-mid {
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
 }
 
 .mt-large {
@@ -11083,6 +11101,11 @@ textarea.form-control-lg {
 
 .animate__normal {
   --animate-duration:1s;
+}
+
+*, *::before, *::after {
+  font-size: 16px;
+  line-height: 1rem;
 }
 
 .container {
@@ -11153,7 +11176,7 @@ footer {
 }
 
 .pt-a {
-  padding-top: 113px;
+  padding-top: 115px;
 }
 
 .companyImg {

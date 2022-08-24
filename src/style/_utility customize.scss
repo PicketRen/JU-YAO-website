@@ -35,6 +35,9 @@
 .fs-mid{
   font-size: calc(2rem + 0.9vw);
 }
+.fs-s{
+  font-size: 0.875rem;
+}
 
 //TEXT
 .text-heavy{
@@ -53,6 +56,10 @@
 .letter-spacing-s{
   letter-spacing: 1rem
 }
+.letter-spacing-md{
+  letter-spacing: 2rem
+}
+
 .letter-spacing-lg{
   letter-spacing: 3.75rem
 }
@@ -65,9 +72,17 @@
   margin-left: 5rem;
   margin-right: 5rem;
 }
+.mx-mid{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
 .my-large{
   margin-top: 4.5rem;
   margin-bottom: 4.5rem;
+}
+.my-mid{
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
 }
 .mt-large{
   margin-top: 4.5rem;

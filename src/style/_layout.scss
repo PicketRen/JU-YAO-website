@@ -4,9 +4,20 @@
     line-height: 1rem;
     // outline: 1px solid red
 } 
-
+html, body{
+    height: 100%;
+    margin: 0;
+}
+.wrap{
+    min-height: 100%;
+    margin-bottom: -160.67px;
+}
 .container{
     margin: 0 auto;
+    }
+.container1{
+    margin: 0 auto;
+    padding-bottom: 160.67px;
     }
 //img rwd css 
 img{
@@ -63,6 +74,7 @@ a{
     }    
 
 footer{
+    height: 160.67px;
     background-color: $primary;
     color:$secondary
 }

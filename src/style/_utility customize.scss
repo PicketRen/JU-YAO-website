@@ -64,25 +64,26 @@
   letter-spacing: 3.75rem
 }
 
+//padding
+.pt-mid{
+  padding-top: 2.5rem;
+}
 // MARGIN
-.me-large{
-    margin-right: 4.5em;
+.mx-mid{
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 .mx-large{
   margin-left: 5rem;
   margin-right: 5rem;
 }
-.mx-mid{
-  margin-left: 2rem;
-  margin-right: 2rem;
+.my-mid{
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
 }
 .my-large{
   margin-top: 4.5rem;
   margin-bottom: 4.5rem;
-}
-.my-mid{
-  margin-top: 3.5rem;
-  margin-bottom: 3.5rem;
 }
 .mt-large{
   margin-top: 4.5rem;
@@ -90,6 +91,10 @@
 .mb-large{
   margin-bottom: 4.5rem;
 }
+.me-large{
+  margin-right: 4.5em;
+}
+
 .ms-aa{
   margin-left: 30%;
 }

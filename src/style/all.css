@@ -11043,13 +11043,8 @@ textarea.form-control-lg {
   letter-spacing: 3.75rem;
 }
 
-.me-large {
-  margin-right: 4.5em;
-}
-
-.mx-large {
-  margin-left: 5rem;
-  margin-right: 5rem;
+.pt-mid {
+  padding-top: 2.5rem;
 }
 
 .mx-mid {
@@ -11057,14 +11052,19 @@ textarea.form-control-lg {
   margin-right: 2rem;
 }
 
-.my-large {
-  margin-top: 4.5rem;
-  margin-bottom: 4.5rem;
+.mx-large {
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .my-mid {
   margin-top: 3.5rem;
   margin-bottom: 3.5rem;
+}
+
+.my-large {
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem;
 }
 
 .mt-large {
@@ -11073,6 +11073,10 @@ textarea.form-control-lg {
 
 .mb-large {
   margin-bottom: 4.5rem;
+}
+
+.me-large {
+  margin-right: 4.5em;
 }
 
 .ms-aa {
@@ -11108,8 +11112,23 @@ textarea.form-control-lg {
   line-height: 1rem;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrap {
+  min-height: 100%;
+  margin-bottom: -160.67px;
+}
+
 .container {
   margin: 0 auto;
+}
+
+.container1 {
+  margin: 0 auto;
+  padding-bottom: 160.67px;
 }
 
 img {
@@ -11171,6 +11190,7 @@ a {
 }
 
 footer {
+  height: 160.67px;
   background-color: #002135;
   color: #c3c4c4;
 }

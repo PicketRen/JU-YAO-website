@@ -11105,7 +11105,7 @@ html, body {
 
 .wrap {
   min-height: 100%; /*外層高度100%*/
-  margin-bottom: -165px; /*隨footer高度需做調整*/
+  margin-bottom: -162px; /*隨footer高度需做調整*/
 }
 
 .container {
@@ -11176,7 +11176,7 @@ a {
 }
 
 footer {
-  height: 165px; /*設定footer本身高度*/
+  height: 162px; /*設定footer本身高度*/
   background-color: #002135;
   color: #c3c4c4;
 }

@@ -10,14 +10,14 @@ html, body{
 }
 .wrap{
     min-height: 100%; /*外層高度100%*/
-    margin-bottom: -160.67px;  /*隨footer高度需做調整*/
+    margin-bottom: -160px;  /*隨footer高度需做調整*/
 }
 .container{
     margin: 0 auto;
     }
 .container1{
     margin: 0 auto;
-    padding-bottom: 160.67px;  /*避免文字超出瀏覽器時，內容區塊不會和footer打架*/
+    padding-bottom: 160px;  /*避免文字超出瀏覽器時，內容區塊不會和footer打架*/
     }
 //img rwd css 
 img{
@@ -74,7 +74,7 @@ a{
     }    
 
 footer{
-    height: 160.67px; /*設定footer本身高度*/
+    height: 160px; /*設定footer本身高度*/
     background-color: $primary;
     color:$secondary
 }

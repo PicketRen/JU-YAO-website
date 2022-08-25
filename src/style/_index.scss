@@ -1,9 +1,6 @@
-.pt-a{
-    padding-top: 115px;
-}
 .companyImg{
     width: 100%;
-    min-height: 530px ;
+    height: fill-available ;
     background: 
     linear-gradient(115deg, $gray-100 35%, transparent 65%) center center /100% 100%,
     url("../img/company_building_1-1.jpg") center center/ cover;

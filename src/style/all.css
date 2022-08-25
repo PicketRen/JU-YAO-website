@@ -11021,6 +11021,10 @@ textarea.form-control-lg {
   letter-spacing: 3.75rem;
 }
 
+.pt-a {
+  padding-top: 115px;
+}
+
 .pt-mid {
   padding-top: 2.5rem;
 }
@@ -11101,7 +11105,7 @@ html, body {
 
 .wrap {
   min-height: 100%; /*外層高度100%*/
-  margin-bottom: -160.67px; /*隨footer高度需做調整*/
+  margin-bottom: -160px; /*隨footer高度需做調整*/
 }
 
 .container {
@@ -11110,7 +11114,7 @@ html, body {
 
 .container1 {
   margin: 0 auto;
-  padding-bottom: 160.67px; /*避免文字超出瀏覽器時，內容區塊不會和footer打架*/
+  padding-bottom: 160px; /*避免文字超出瀏覽器時，內容區塊不會和footer打架*/
 }
 
 img {
@@ -11172,18 +11176,16 @@ a {
 }
 
 footer {
-  height: 160.67px; /*設定footer本身高度*/
+  height: 160px; /*設定footer本身高度*/
   background-color: #002135;
   color: #c3c4c4;
 }
 
-.pt-a {
-  padding-top: 115px;
-}
-
 .companyImg {
   width: 100%;
-  min-height: 530px;
+  height: -webkit-fill-available;
+  height: -moz-available;
+  height: fill-available;
   background: linear-gradient(115deg, #f8f9fa 35%, transparent 65%) center center/100% 100%, url("../img/company_building_1-1.jpg") center center/cover;
 }
 @media (min-width: 768px) {

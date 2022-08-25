@@ -1,22 +1,6 @@
 //customize css
 
 //width
-.width-large{
-  @include media-breakpoint-up(lg){
-    width: 55%;
-  }
-  @include  media-breakpoint-up(xl){
-    width: 50%;
-  }
-}
-.width-small{
-  @include media-breakpoint-up(lg){
-    width: 45%;
-  }
-  @include  media-breakpoint-up(xl){
-    width: 50%;
-  }
-}
 .w80{
   width: 80%;
 }
@@ -67,6 +51,9 @@
 //padding
 .pt-mid{
   padding-top: 2.5rem;
+}
+.ps-large{
+  padding-left: 4.5rem;
 }
 // MARGIN
 .mx-mid{

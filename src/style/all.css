@@ -10977,28 +10977,6 @@ textarea.form-control-lg {
   --bs-btn-active-shadow: 0 0 0;
 }
 
-@media (min-width: 992px) {
-  .width-large {
-    width: 55%;
-  }
-}
-@media (min-width: 1200px) {
-  .width-large {
-    width: 50%;
-  }
-}
-
-@media (min-width: 992px) {
-  .width-small {
-    width: 45%;
-  }
-}
-@media (min-width: 1200px) {
-  .width-small {
-    width: 50%;
-  }
-}
-
 .w80 {
   width: 80%;
 }
@@ -11045,6 +11023,10 @@ textarea.form-control-lg {
 
 .pt-mid {
   padding-top: 2.5rem;
+}
+
+.ps-large {
+  padding-left: 4.5rem;
 }
 
 .mx-mid {
@@ -11113,13 +11095,13 @@ textarea.form-control-lg {
 }
 
 html, body {
-  height: 100%;
+  height: 100%; /*外層高度100%*/
   margin: 0;
 }
 
 .wrap {
-  min-height: 100%;
-  margin-bottom: -160.67px;
+  min-height: 100%; /*外層高度100%*/
+  margin-bottom: -160.67px; /*隨footer高度需做調整*/
 }
 
 .container {
@@ -11128,7 +11110,7 @@ html, body {
 
 .container1 {
   margin: 0 auto;
-  padding-bottom: 160.67px;
+  padding-bottom: 160.67px; /*避免文字超出瀏覽器時，內容區塊不會和footer打架*/
 }
 
 img {
@@ -11190,7 +11172,7 @@ a {
 }
 
 footer {
-  height: 160.67px;
+  height: 160.67px; /*設定footer本身高度*/
   background-color: #002135;
   color: #c3c4c4;
 }

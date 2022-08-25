@@ -258,4 +258,20 @@
     integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
     crossorigin="anonymous"
   ></script>
+
+  <script>
+    function safariHacks() {
+      let windowsVH = window.innerHeight / 100;
+      document
+        .querySelector(".companyImg")
+        .style.setProperty("--vh", windowsVH + "px");
+      window.addEventListener("resize", function () {
+        document
+          .querySelector(".companyImg")
+          .style.setProperty("--vh", windowsVH + "px");
+      });
+    }
+
+    safariHacks();
+  </script>
 </html>

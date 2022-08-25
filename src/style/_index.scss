@@ -1,6 +1,7 @@
 .companyImg{
     width: 100%;
-    height: fill-available ;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     background: 
     linear-gradient(115deg, $gray-100 35%, transparent 65%) center center /100% 100%,
     url("../img/company_building_1-1.jpg") center center/ cover;
